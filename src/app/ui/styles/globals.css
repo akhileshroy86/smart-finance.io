@@ -1,0 +1,296 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to bottom,#0C0C0C, #481E14 );
+    min-height: 735px;
+}* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: transparent;
+  
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+.navbar {
+  color: white;
+  position: relative;
+  left: 690px;
+  top: -30px;
+  letter-spacing: 1px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  padding-bottom: 50px;
+  
+}
+.logo {
+  color: whitesmoke;
+
+}
+.Link {
+ padding: 5px 17.5px 5px 17.5px;
+  border: none;
+  border-radius: 0px;
+
+  
+}
+.Link:hover {
+  background-color: #F2613F;
+  box-shadow: 0px 0px  10px  #F2613F;
+  color: black;
+  transition: color 500ms;
+  border-radius: 15px;
+
+
+  
+
+}
+.heading {
+  color: white;
+ margin-left: 35%;
+ margin-top:150px;
+font-family: 'Cascadia Code';
+}
+.highlight {
+  color: #F2613F;
+}
+.text {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  padding: 10px 100px;
+}
+header h1 {
+  float: left;
+}
+
+header nav {
+  float: right;
+  
+}
+
+header ul {
+  margin-top: 17px;
+}
+
+header ul li {
+  display: inline-flex;
+  padding-right: 17.5px;
+  padding-left: 17.5px;
+  margin-top: 0;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+header ul li a:hover {
+  color: #0C0C0C; /* Changed hover color to a different shade */
+  transition: color 500ms; /* Transition for color change */
+}
+
+
+
+section {
+  padding: 20px 0;
+}
+
+#hero {
+  padding-top: 200px;
+  min-height: 620px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+      /* You can adjust the direction of the gradient (to right, to left, to top, to bottom, etc.) as per your requirement */
+      /* You can also add additional properties such as width, height, etc., to style your gradient container */
+  font-size:25px;
+  color: #fff;
+  text-align: center;
+}
+
+#hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  margin-top: 100px;
+  display: inline-block;
+  background-color: transparent;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none; /* Added solid border with white color */
+  border-radius: 5px;
+  transition: background-color 700ms;
+}
+
+.btn:hover {
+  background-color: #F2613F;
+  
+}
+
+
+
+#about {
+  padding-top: 200px;
+  min-height: 100%;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  background: transparent;
+  font-size: 18px;
+  color: #fff;
+  text-align: left;
+  border: #fff 5px;
+  min-width:100%;
+}
+
+
+.li-head{
+  font-weight:bold;
+}
+.card{
+  padding: 15px;
+  min-height:fit-content;
+  width:fit-content;
+  border: 10px;
+  border-color: #fff;
+}
+.card-container{
+  
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+
+}
+.card p {
+  padding : 0px;
+}
+.card-text{
+  text-align: center;
+
+}
+.card h1{
+  text-align: center;
+  padding-bottom:50px;
+}
+
+
+footer {
+  background:transparent;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
+.card-text{
+  border: #fff;
+}
+.login{
+min-height: 300px;
+ background: transparent;
+ max-width: 600px;
+  margin: 50px auto;
+  background-color: #481E14 ; /* Background color for the form container */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+nav ul li {
+  font-size: 17px;
+}
+
+
+.login h2{
+  text-align: center;
+  color: #fff;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.form-control {
+  width: 100%;
+  margin-bottom: 80px;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: #fff; /* White color for text boxes */
+  
+}
+.login-button{
+  margin-top: 100px;
+  display: inline-block;
+  background-color: transparent;
+  color: #fff;
+  padding: 5px 20px;
+  text-decoration: none; /* Added solid border with white color */
+  border-radius: 5px;
+  border:none;
+  transition: background-color  700ms;
+  transition: box-shadow 700ms;
+  margin-left: 650px;
+  font-size: 25px;
+}
+.login-button:hover{
+  box-shadow: 0px 0px  10px  #F2613F;
+  background-color: #F2613F ;
+}
+.tag {
+  color: white;
+  text-align: center;
+  position: relative;
+  bottom: -80px;
+  left: -25px;
+}
+
+.about {
+  color: white;
+  margin-left: 50px;
+  padding: 150px 50px 20px 90px;
+  font-size: 20px;
+  font-family: 'Cascadia Code';
+}
+.footer {
+  float: left;
+  display: block;
+
+}
+.list {
+  text-align: center;
+  float: left;
+  width: 29%;
+  color: white;
+  padding: 20px;
+  
+}
+.tlist {
+  padding-left: 100px;
+  font-size: 20px;
+  }
+.hlist {
+  color: #F2613F;
+  font-family:'Cascadia Code' ;
+  padding: 50px 0px 50px 0px;
+  font-size: 25px;
+}
+.foot {
+  margin-top: 500px;
+  margin-left: 24%;
+  margin-right: 24%;
+  margin-bottom: 50px;
+  text-align: center;
+  color: white;
+}
+.login-box {
+  height: 50%;
+  box-shadow: 0px 0px 15px salmon;
+  background-color: #481E14;
+  margin: 100px 50px 100px 50px;
+}
